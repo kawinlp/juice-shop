@@ -18,4 +18,4 @@ jobs:
           cx_tenant: 'apac-workshop'
           base_uri: 'https://sng.ast.checkmarx.net'
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
-          cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
+          cx_client_secret: ${{ secrets.CX_SECRET }}
